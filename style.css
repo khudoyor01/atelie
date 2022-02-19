@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#active {
+  color: #ffae2b;
+}
+
+.container {
+  font-family: "Old Standard TT";
+  background-color: #181511;
+}
+
+.container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  padding: 0 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #181511;
+}
+
+.container .nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.container .nav .menu .logo {
+  font-size: 22px;
+  font-weight: normal;
+  color: #ffae2b;
+}
+
+.container .nav .menu .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin-left: 5rem;
+}
+
+.container .nav .menu .nav-items .nav-item {
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: normal;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #aca592;
+}
+
+.container .nav .menu .nav-items .nav-item:hover {
+  color: #ffae2b;
+}
+
+.container .nav .menu .nav-items .link {
+  text-decoration: none;
+}
+
+.container .nav .btn {
+  color: #ffae2b;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  background: transparent;
+  outline: none;
+  width: 10%;
+  height: 42px;
+  border: 1px solid #ffae2b;
+}
+
+.container .content-atel {
+  height: 90vh;
+  background-image: url(./images/background-image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .content-atel .context-atel_text {
+  text-align: center;
+}
+
+.container .content-atel .context-atel_text .context-atel_title {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffae2b;
+  letter-spacing: 2px;
+}
+
+.container .content-atel .context-atel_text .context-atel_texts {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.container .content-atel .context-atel_text .context-atel_btn {
+  border: 1px solid #ffae2b;
+  color: #ffae2b;
+  width: 120px;
+  height: 40px;
+  background: transparent;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .content-atel .context-atel_text .context-atel_btn:hover {
+  background-color: #ffae2b;
+  color: #fff;
+}
+
+.container .content-template {
+  margin-top: 7.5rem;
+}
+
+.container .content-template .content-template_title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 400;
+  color: #aca592;
+  margin-bottom: 10px;
+}
+
+.container .content-template .content-template_theme {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 400;
+  color: #ffae2b;
+}
+
+.container .content-template .content-template_box .content-template_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.container .content-template .content-template_box .content-template_cards .content-template_card {
+  border: 1px solid #4b4136;
+  text-align: center;
+  padding: 0.5rem;
+  width: 387px;
+  height: 315px;
+}
+
+.container .content-template .content-template_box .content-template_cards .content-template_card .card-img {
+  margin-top: 41px;
+  width: 305px;
+  height: 190px;
+}
+
+.container .content-template .content-template_box .content-template_cards .content-template_card .card-title {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container .services {
+  min-height: 100vh;
+}
+
+.container .services .services-title {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #4b4136;
+}
+
+.container .services .services-theme {
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffae2b;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container .services .services-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .services .services-box .services-box_item {
+  border: 1px solid #4b4136;
+  width: 400px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .services .services-box .services-box_item .services-box_items .services-icon {
+  width: 45.3px;
+  height: 60px;
+}
+
+.container .services .services-box .services-box_item .services-box_items .services-box_item__title {
+  font-size: 29px;
+  font-weight: 400;
+  color: #ffae2b;
+  margin: 10px 0;
+}
+
+.container .services .services-box .services-box_item .services-box_items .services-box_item__intro {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ACA592;
+}
+
+.container .services .services-box .services-box_item .services-box_items .services-box_item__text {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #443e2d;
+  margin-bottom: 5px;
+}
+
+.container .services .services-box .services-box_item:hover {
+  position: relative;
+  top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
